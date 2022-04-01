@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(180, 172, 236);
+    position: sticky;
+    top: 0;
+
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: 50px;
+    color: rgb(50, 60, 205);
+}
+.navbar{
+    display: flex;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    
+    
+}
+nav a:hover{
+    color: orange;
+    cursor: pointer;
+}
